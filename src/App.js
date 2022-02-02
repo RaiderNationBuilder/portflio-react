@@ -5,9 +5,9 @@ function App() {
   return (
     <main className="main">
                
-        <div class="backdrop vid-box">
+        <div className="backdrop vid-box">
             <video autoPlay loop muted>
-                <source src="/starry.mp4" type="video/mp4" />
+                <source src="/public/starry.mp4" type="video/mp4" />
             </video>            
         </div>
         <header className="container header">
