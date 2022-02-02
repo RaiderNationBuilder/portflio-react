@@ -7,7 +7,7 @@ function App() {
                
         <div className="backdrop vid-box">
             <video autoPlay loop muted>
-                <source src="/public/starry.mp4" type="video/mp4" />
+                <source src="../public/starry.mp4" type="video/mp4" />
             </video>            
         </div>
         <header className="container header">
@@ -31,7 +31,7 @@ function App() {
             <section className="container bio" id="bio">
               
                 <picture>
-                    <img src="/selfie.jpg" alt="business selfie" />
+                    <img src="public/selfie.jpg" alt="business selfie" />
                 </picture>                                
                 <article className="about">
                     <h3>About Me</h3>
