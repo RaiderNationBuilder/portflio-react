@@ -1,5 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import starry from "../src/starry.mp4";
+import selfie from "../src/selfie.jpg";
+import runbuddy from "../src/02-run-buddy.jpg";
+import homepage from "../src/homepage.png";
+import workItDone from "../src/work-it-done.jpg";
+import portfolio3 from "../src/02-portfolio-3.jpg";
+import portfolio4 from "../src/02-portfolio-4.jpg";
 
 function App() {
   return (
@@ -7,7 +13,7 @@ function App() {
                
         <div className="backdrop vid-box">
             <video autoPlay loop muted>
-                <source src="../public/starry.mp4" type="video/mp4" />
+                <source src={starry} type="video/mp4" />
             </video>            
         </div>
         <header className="container header">
@@ -31,7 +37,7 @@ function App() {
             <section className="container bio" id="bio">
               
                 <picture>
-                    <img src="public/selfie.jpg" alt="business selfie" />
+                    <img src={selfie} alt="business selfie" />
                 </picture>                                
                 <article className="about">
                     <h3>About Me</h3>
@@ -56,13 +62,13 @@ function App() {
             <section className="projects" id="projects">
 
                 <h2>PROJECTS</h2> 
-                <a href="https://raidernationbuilder.github.io/run-buddy/" target="blank"><img src="/02-run-buddy.jpg" alt="Link to runbuddy website" /></a>
+                <a href="https://raidernationbuilder.github.io/run-buddy/" target="blank"><img src={runbuddy} alt="Link to runbuddy website" /></a>
                 <div>
 
-                    <a href="https://raidernationbuilder.github.io/finance-assistant/"target="blank"><img src="/homepage.png" alt="Link to finance-assistant website" style={{height: "7em", width: "auto"}}/></a>
-                    <a href="https://warm-eyrie-07140.herokuapp.com/"target="blank"><img src="/work-it-done.jpg" alt="Link to work-it-done.jpg website" style={{height: "7em", width: "auto"}} /></a>
-                    <a href="https://raidernationbuilder.github.io/siteplaceholder3/"target="blank"><img src="/02-portfolio-3.jpg" alt="Link to placeholder website" style={{height: "7em", width: "auto"}} /></a>
-                    <a href="https://raidernationbuilder.github.io/siteplaceholder4/"target="blank"><img src="/02-portfolio-4.jpg" alt="Link to placeholder website" style={{height: "7em", width: "auto"}} /></a>
+                    <a href="https://raidernationbuilder.github.io/finance-assistant/"target="blank"><img src={homepage} alt="Link to finance-assistant website" style={{height: "7em", width: "auto"}}/></a>
+                    <a href="https://warm-eyrie-07140.herokuapp.com/"target="blank"><img src={workItDone} alt="Link to work-it-done.jpg website" style={{height: "7em", width: "auto"}} /></a>
+                    <a href="https://raidernationbuilder.github.io/siteplaceholder3/"target="blank"><img src={portfolio3} alt="Link to placeholder website" style={{height: "7em", width: "auto"}} /></a>
+                    <a href="https://raidernationbuilder.github.io/siteplaceholder4/"target="blank"><img src={portfolio4} alt="Link to placeholder website" style={{height: "7em", width: "auto"}} /></a>
                 </div>
             </section>                    
         </section>
