@@ -12,7 +12,7 @@ function App() {
     <main className="main">
                
         <div className="backdrop vid-box">
-            <video autoPlay loop muted>
+            <video style={{width:"100%"}} autoPlay loop muted>
                 <source src={starry} type="video/mp4" />
             </video>            
         </div>
