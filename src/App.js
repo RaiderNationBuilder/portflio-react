@@ -66,8 +66,8 @@ function App() {
                 <div>
 
                     <a href="https://raidernationbuilder.github.io/finance-assistant/"target="blank"><img src={homepage} alt="Link to finance-assistant website" style={{height: "7em", width: "auto"}}/></a>
-                    <a href="https://warm-eyrie-07140.herokuapp.com/"target="blank"><img src={workItDone} alt="Link to work-it-done.jpg website" style={{height: "7em", width: "auto"}} /></a>
-                    <a href="https://raidernationbuilder.github.io/siteplaceholder3/"target="blank"><img src={portfolio3} alt="Link to placeholder website" style={{height: "7em", width: "auto"}} /></a>
+                    <a href="https://warm-eyrie-07140.herokuapp.com/"target="blank"><img src={workItDone} alt="Link to work-it-done website" style={{height: "7em", width: "auto"}} /></a>
+                    <a href="https://pacific-bayou-24755.herokuapp.com/"target="blank"><img src={StillGood} alt="Link to StillGood website" style={{height: "7em", width: "auto"}} /></a>
                     <a href="https://raidernationbuilder.github.io/siteplaceholder4/"target="blank"><img src={portfolio4} alt="Link to placeholder website" style={{height: "7em", width: "auto"}} /></a>
                 </div>
             </section>                    
