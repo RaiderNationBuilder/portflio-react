@@ -4,7 +4,7 @@ import selfie from "../src/selfie.jpg";
 import runbuddy from "../src/02-run-buddy.jpg";
 import homepage from "../src/homepage.png";
 import workItDone from "../src/work-it-done.jpg";
-import portfolio3 from "..src/add-item-screenshot-5.png";
+import stillGood from "..src/add-item-screenshot-5.png";
 import portfolio4 from "../src/02-portfolio-4.jpg";
 
 function App() {
@@ -67,7 +67,7 @@ function App() {
 
                     <a href="https://raidernationbuilder.github.io/finance-assistant/"target="blank"><img src={homepage} alt="Link to finance-assistant website" style={{height: "7em", width: "auto"}}/></a>
                     <a href="https://warm-eyrie-07140.herokuapp.com/"target="blank"><img src={workItDone} alt="Link to work-it-done website" style={{height: "7em", width: "auto"}} /></a>
-                    <a href="https://pacific-bayou-24755.herokuapp.com/"target="blank"><img src={StillGood} alt="Link to StillGood website" style={{height: "7em", width: "auto"}} /></a>
+                    <a href="https://pacific-bayou-24755.herokuapp.com/"target="blank"><img src={stillGood} alt="Link to StillGood website" style={{height: "7em", width: "auto"}} /></a>
                     <a href="https://raidernationbuilder.github.io/siteplaceholder4/"target="blank"><img src={portfolio4} alt="Link to placeholder website" style={{height: "7em", width: "auto"}} /></a>
                 </div>
             </section>                    
