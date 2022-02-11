@@ -4,7 +4,7 @@ import selfie from "../src/selfie.jpg";
 import runbuddy from "../src/02-run-buddy.jpg";
 import homepage from "../src/homepage.png";
 import workItDone from "../src/work-it-done.jpg";
-import stillGood from "..src/add-item-screenshot-5.png";
+import stillGood from "..src/add-item-screenshot-5.jpg";
 import portfolio4 from "../src/02-portfolio-4.jpg";
 
 function App() {
