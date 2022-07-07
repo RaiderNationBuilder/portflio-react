@@ -41,21 +41,20 @@ function App() {
                 </picture>                                
                 <article className="about">
                     <h3>About Me</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                       Id dolor laboriosam dignissimos quisquam, facilis placeat. 
-                       Hic dicta mollitia aliquid amet, debitis tenetur iure quos adipisci 
-                       accusantium molestiae asperiores culpa. Tenetur?</p>
+                    <p>Web Developer with a background in LEAN manufacturing implementation.  
+                    Recognized as proactive, resourceful, and persistent problem-solver.  
+                    Excellent communicator with effective client relationship-building skills. 
+                    Graduate of Trilogy Education Services Web Development through University of Wisconsin Madison.</p>
                     <h3>My Skills</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                       Quis cupiditate nulla beatae aperiam debitis porro sequi 
-                       ipsa eos rem! Labore sapiente suscipit ipsum officiis reprehenderit.
-                       Autem, obcaecati. Ut, eaque nisi.</p>
+                    <p>Frontend: HTML5, CSS, JQuery, JavaScript, Bootstrap, AJAX, SASS  
+                    Backend: MySQL, MongoDB, Express, ReactJS, Node, Handlebars, Webpack
+                    </p>
                     <address id="contact">
                         <h3>Patrick Sebstead</h3>
-                        <p>123 Road Street</p>
-                        <p>City, State 65495</p>
-                        <p>email: myemail@yahoo.com</p>
-                        <p>phone: (958) 654-5555</p>
+                        <p>425 E. Cecil St</p>
+                        <p>Neenah, WI 54956</p>
+                        <p>email: sebstead@yahoo.com</p>
+                        <p>phone: (920) 410-1803</p>
                     </address>
                 </article>
             </section>                
@@ -68,7 +67,7 @@ function App() {
                     <a href="https://raidernationbuilder.github.io/finance-assistant/"target="blank"><img src={homepage} alt="Link to finance-assistant website" style={{height: "7em", width: "auto"}}/></a>
                     <a href="https://warm-eyrie-07140.herokuapp.com/"target="blank"><img src={workItDone} alt="Link to work-it-done website" style={{height: "7em", width: "auto"}} /></a>
                     <a href="https://pacific-bayou-24755.herokuapp.com/"target="blank"><img src={stillGood} alt="Link to StillGood website" style={{height: "7em", width: "auto"}} /></a>
-                    <a href="https://raidernationbuilder.github.io/siteplaceholder4/"target="blank"><img src={portfolio4} alt="Link to placeholder website" style={{height: "7em", width: "auto"}} /></a>
+                    
                 </div>
             </section>                    
         </section>
