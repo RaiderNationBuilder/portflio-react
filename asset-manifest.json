@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portflio-react/static/css/main.cd719e6d.css",
-    "main.js": "/portflio-react/static/js/main.b621352d.js",
+    "main.js": "/portflio-react/static/js/main.f8f5a6d8.js",
     "static/js/787.1ed0c42c.chunk.js": "/portflio-react/static/js/787.1ed0c42c.chunk.js",
     "static/media/starry.mp4": "/portflio-react/static/media/starry.2f271b00cc528c8f1495.mp4",
     "static/media/homepage.png": "/portflio-react/static/media/homepage.ff85b7c2e00020b71aed.png",
@@ -12,11 +12,11 @@
     "static/media/selfie.jpg": "/portflio-react/static/media/selfie.7485e4d600a332d08997.jpg",
     "index.html": "/portflio-react/index.html",
     "main.cd719e6d.css.map": "/portflio-react/static/css/main.cd719e6d.css.map",
-    "main.b621352d.js.map": "/portflio-react/static/js/main.b621352d.js.map",
+    "main.f8f5a6d8.js.map": "/portflio-react/static/js/main.f8f5a6d8.js.map",
     "787.1ed0c42c.chunk.js.map": "/portflio-react/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd719e6d.css",
-    "static/js/main.b621352d.js"
+    "static/js/main.f8f5a6d8.js"
   ]
 }
